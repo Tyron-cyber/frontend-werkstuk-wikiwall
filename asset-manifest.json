@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/frontend-werkstuk-wikiwall/static/css/main.c2219d4f.css",
-    "main.js": "/frontend-werkstuk-wikiwall/static/js/main.afad1c96.js",
+    "main.js": "/frontend-werkstuk-wikiwall/static/js/main.c8c029a4.js",
     "static/js/787.c950cae6.chunk.js": "/frontend-werkstuk-wikiwall/static/js/787.c950cae6.chunk.js",
     "static/media/bachmoet.jfif": "/frontend-werkstuk-wikiwall/static/media/bachmoet.cff0c40e782713282c18.jfif",
     "static/media/Poppins-Regular.ttf": "/frontend-werkstuk-wikiwall/static/media/Poppins-Regular.4211496d0e075ffe7c2f.ttf",
@@ -10,11 +10,11 @@
     "index.html": "/frontend-werkstuk-wikiwall/index.html",
     "static/media/nav_Icon.svg": "/frontend-werkstuk-wikiwall/static/media/nav_Icon.47888c0b9a9ad31a920d2a02980ee133.svg",
     "main.c2219d4f.css.map": "/frontend-werkstuk-wikiwall/static/css/main.c2219d4f.css.map",
-    "main.afad1c96.js.map": "/frontend-werkstuk-wikiwall/static/js/main.afad1c96.js.map",
+    "main.c8c029a4.js.map": "/frontend-werkstuk-wikiwall/static/js/main.c8c029a4.js.map",
     "787.c950cae6.chunk.js.map": "/frontend-werkstuk-wikiwall/static/js/787.c950cae6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2219d4f.css",
-    "static/js/main.afad1c96.js"
+    "static/js/main.c8c029a4.js"
   ]
 }
