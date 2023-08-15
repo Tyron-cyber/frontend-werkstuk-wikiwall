@@ -11,12 +11,13 @@ import Categories from './router/categories';
 import reportWebVitals from './reportWebVitals';
 import Root from './router/root';
 import Error from './components/error';
+import Home from './router/home';
 
 
 const router = createBrowserRouter([
   {
 path:'/',
-element: <Root/>, 
+element: <Home/>, 
 errorElement: <Error/>,
 
 
