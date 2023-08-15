@@ -16,23 +16,12 @@ import Home from './router/home';
 
 const router = createBrowserRouter([
   {
-path:'/',
-element: <h1>hello world</h1>, 
-// errorElement: <Error/>,
+    path: "/",
+    element: <Root />,
+    errorElement: <Error/>,
+  }
 
-
-children:[
-  { 
-    path: 'categories',
-    element: <Categories/>
-  },
-
- 
-  
-]
-}
-
-])
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -7,12 +7,10 @@ import Categories from "./categories";
 
 function Root() {
     return ( <>
-
-    <Home/>
-    {/* <Routes>
+    <Routes>
     <Route index element= {<Home/>}/>
     <Route path="categories" element= {<Categories/>}/>
-    </Routes> */}
+    </Routes>
     
     </> );
 }
