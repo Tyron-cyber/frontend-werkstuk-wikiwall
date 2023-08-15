@@ -17,8 +17,8 @@ import Home from './router/home';
 const router = createBrowserRouter([
   {
 path:'/',
-element: <Root/>, 
-errorElement: <Error/>,
+element: <h1>hello world</h1>, 
+// errorElement: <Error/>,
 
 
 children:[
