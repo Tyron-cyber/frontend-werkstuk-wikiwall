@@ -22,7 +22,7 @@ errorElement: <Error/>,
 
 children:[
   { 
-    path: 'categories',
+    path: '/categories',
     element: <Categories/>
   },
 
