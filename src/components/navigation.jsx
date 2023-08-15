@@ -52,7 +52,7 @@ const [toggle, setNav]= useState(false)
       whileHover={{scale: 1.2}}
       whileTap={{scale:1}}
       className="listElement"> 
-      <Link className="linkStyle" to="/categories"> Catgeories</Link>
+      <Link className="linkStyle" to="categories"> Catgeories</Link>
     </motion.li>
       
     <motion.li 

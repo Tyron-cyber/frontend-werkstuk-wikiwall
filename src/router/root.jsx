@@ -9,7 +9,7 @@ function Root() {
     return ( <>
     <Routes>
     <Route index element= {<Home/>}/>
-    <Route path="/categories" element= {<Categories/>}/>
+    <Route path="categories" element= {<Categories/>}/>
     </Routes>
     
     </> );
