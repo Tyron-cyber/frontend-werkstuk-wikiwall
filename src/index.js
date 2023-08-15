@@ -15,7 +15,7 @@ import Error from './components/error';
 
 const router = createBrowserRouter([
   {
-path:'*',
+path:'/',
 Component: Root, 
 errorElement: <Error/>,
 

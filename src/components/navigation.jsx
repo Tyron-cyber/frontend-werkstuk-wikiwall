@@ -45,7 +45,7 @@ const [toggle, setNav]= useState(false)
       whileHover={{scale: 1.2}}
       whileTap={{scale:1}}
       className="listElement">
-        <Link className="linkStyle" to="*"> Home</Link>
+        <Link className="linkStyle" to="/"> Home</Link>
     </motion.li>
       
     <motion.li 

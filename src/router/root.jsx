@@ -8,7 +8,7 @@ import Categories from "./categories";
 function Root() {
     return ( <>
     <Routes>
-    <Route path="*" element= {<Home/>}/>
+    <Route index element= {<Home/>}/>
     <Route path="/categories" element= {<Categories/>}/>
     </Routes>
     
