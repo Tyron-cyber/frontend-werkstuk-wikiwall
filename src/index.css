@@ -1,0 +1,287 @@
+::-webkit-scrollbar{width:6px;border-left:1px solid #ffffff;}
+::-webkit-scrollbar-thumb{background-color:#0c0cc5;}
+body {
+  
+ position: relative;
+  margin: 0;
+ font-family: poppins ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ div {
+  width: 100%
+ }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face{
+  font-family: "poppins";
+  src: url(./fonts/Poppins-Regular.ttf);
+  font-family: "poppins-bold";
+  src: url(./fonts/Poppins-Bold.ttf);
+
+}
+header{
+  text-align: center;
+}
+
+h1{
+  font-family: poppins;
+}
+h2{
+  font-size: 20px;
+}
+
+.searchbar{
+  margin-left: 50px;
+  width: 100%;
+  
+}
+.searchbar input{
+  width: 65%;
+  margin: 2vw;
+  border-radius: 20px;
+  border: solid grey 2px; 
+  padding: .2vw;
+  font-family: poppins;
+
+}
+.searchbar ::placeholder{
+  padding-left: 20px;
+}
+.searchbar button{
+  padding: .2vw;
+  padding-left:2.5vw;
+  padding-right: 2.5vw;
+  border-radius: 20px;
+  color:blue ;
+  background-color: white;
+  border: blue solid 2px;
+  font-family: poppins;
+
+}
+.categories{
+  justify-content: center;
+  font-family: poppins-bold;
+}
+.titles{
+  margin-top: 2VW;
+  height: 70px;
+  font-size: small; 
+  padding-right: 1.5vw;
+  text-align: end;
+  color: white;
+  width: 20%;
+  background-color: #0c0cc5;
+  border-radius: 0px 50px 50px 0px;
+}
+.categories li{
+  padding: 10px;
+  list-style:none ;
+}
+.categories ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgContainer{
+  height: 150px;
+  border-radius: 10px;
+}
+.topicContainer{
+  margin: 5%;
+  width: 30%;
+}
+.titleBar{
+  display: flex;
+  width: 100%;
+  
+}
+
+.linkStyle {
+  font-family: poppins-bold;
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+  color: white;
+  
+
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+}
+.listElement{
+  padding: .5em;
+  margin-right: 3vw;
+}
+.navigation{
+  
+ 
+  position: fixed;
+  height: 100vh;
+  z-index: 1;
+  border-radius: 0px 70px 70px 0px;
+  text-align: end;
+  width: 20%;
+  background-color: #0c0cc5;
+}
+.image {
+ text-align: center;
+margin-top: 10vh;
+margin-bottom: 25vh;
+height: 2vh;
+}
+.image img{
+  
+  height:30px;
+}
+.navButton{
+  border: solid 2px #0c0cc5;
+  border-radius: 50px;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  left: 15px;
+  width: 3vw;
+  background-color:white; 
+  margin-top:40vh;
+  position:fixed;
+} 
+button{
+  cursor: pointer;
+}
+.headImage{
+  margin-top:2vw;
+  width: 10vw;
+}
+
+.loginContainer{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: center;
+}
+.loginButtons{
+  font-size: medium;
+  color: #0c0cc5;
+  background-color: white;
+  border:solid 2px #0c0cc5;
+  margin-bottom: 2vh;
+  font-family: poppins-bold;
+  padding-left: 25px;
+  padding-right: 25px;
+} 
+
+footer{
+  padding-bottom: 5vh;
+  background-color: #0c0cc5;
+}
+footer img{
+  
+  margin-left: 5vw;
+  height: 10vh;
+}
+footer div{
+  margin: 5vw;
+  color: white;
+  font-family: poppins;
+  width: 50vw;
+
+}
+.card{
+  border: solid #8bdc21 3px;
+  width: 45%;
+  box-shadow:3px 3px rgba(0, 0, 0, 0.2) ;
+  border-radius: 20px;
+  background-color:white; 
+}
+.bachmoetCard{
+  border: solid #0c0cc5 3px;
+  width: 40%;
+  box-shadow:3px 3px rgba(0, 0, 0, 0.2) ;
+  border-radius: 20px;
+  background-color:white; 
+}
+
+
+.highlight{
+  color:#0c0cc5;
+}
+.message{
+  margin-left: 25%;
+  width: 50%;
+  
+}
+.errorImage{
+  padding-top:10%;
+  padding-left: 45%;
+  width: 10%;
+}
+.credits {
+  margin-left: 40%;
+  display: flex;
+  gap: 10px;
+}
+
+.tidbits{
+padding-top: 5vw ;
+ padding-bottom:5vw ;
+  top: 50%;
+  color: #0c0cc5;
+  font-size: larger;
+}
+.tidbitsCard{
+ 
+overflow-y: scroll;
+ margin-top: 5%;
+ margin-bottom: 5%;
+ margin-left: 15%;
+ width: 70%;
+ border: #0c0cc5 solid 3px;
+ border-radius:  25px;
+ max-height: 250px;
+ height: 250px;
+ 
+}
+.tidbitsCard::-webkit-scrollbar-thumb{
+  display: none;
+}
+.tidbitsCard::-webkit-scrollbar{
+  display: none;
+}
+
+.carouselButton{ 
+  width: 10vw;
+  color: #0c0cc5;
+  font-size: medium;
+  border: #0c0cc5 solid 2px;
+  background-color: white;
+  border-radius: 20px;
+  font-family: Poppins;
+ 
+}
+
+.carouselButton:hover{
+  transition: .3s;
+  color:white ;
+  background-color: #0c0cc5;
+}
+.carouselButtons{
+  
+  justify-content: center ;
+  display: flex;
+  gap: 5vw;
+}
+.news{
+  margin-left: 20%;
+  color: #0c0cc5;
+  width: 50%;
+}
+
+.news img{
+  border-radius: 25px;
+  border: #0c0cc5 solid ;
+ height: 600px;
+}
