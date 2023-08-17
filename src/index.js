@@ -12,6 +12,7 @@ import Categories from './router/categories';
 import Error from './components/error';
 import Home from './router/home';
 import Navigation from './components/navigation';
+import "../inedx.css"
 
 
 
