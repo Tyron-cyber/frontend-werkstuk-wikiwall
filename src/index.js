@@ -1,6 +1,6 @@
 import React, { Children } from 'react';
 import ReactDOM from 'react-dom/client';
-
+import './index.css';
 import{
 createBrowserRouter,
 RouterProvider,
@@ -12,7 +12,7 @@ import Categories from './router/categories';
 import Error from './components/error';
 import Home from './router/home';
 import Navigation from './components/navigation';
-import "../inedx.css"
+
 
 
 
