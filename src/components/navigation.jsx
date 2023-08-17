@@ -66,7 +66,7 @@ const [toggle, setNav]= useState(false)
      whileHover={{scale: 1.2}}
      whileTap={{scale:1}}
       className="listElement">
-        <Link className="linkStyle" to=""> TheVie</Link>
+        <Link className="linkStyle" to="https://tyron-cyber.github.io/frontend-werkstuk-damso/"> TheVie</Link>
     </motion.li>    
       </ul>
 
