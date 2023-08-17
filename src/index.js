@@ -8,15 +8,45 @@ BrowserRouter
 
 } from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
-import Root from './router/root';
+import Categories from './router/categories';
+import Error from './components/error';
+import Home from './router/home';
+import Navigation from './components/navigation';
 
 
+
+const router= createBrowserRouter ([
+
+  {
+    path:"/",
+    element:<Navigation/>,
+    errorElement: <Error/>,
+
+    children:[
+      {
+        index:true,
+        element:<Home/>
+      },
+
+      {
+      path:"categories",
+      Component: Categories
+    },
+    {
+
+      path:"/error",
+      element: <Error/>
+    }
+
+  ]
+  }
+
+
+])
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-<BrowserRouter>
-<Root/>
-</BrowserRouter>
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
 

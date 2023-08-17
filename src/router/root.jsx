@@ -6,11 +6,7 @@ import Error from "../components/error";
 function Root() {
   return (
     <>
-<Routes>
-<Route path="/"  Component={Home}/>
-<Route path="/categories" element={<Categories/>} />
-<Route path="*" element={<Error/>}/>
-</Routes>
+    <Outlet/>
     </>
   );
 }

@@ -1,4 +1,4 @@
-import { Link} from "react-router-dom";
+import { Link, Outlet} from "react-router-dom";
 import { useState } from "react";
 import {motion} from 'framer-motion';
 import image from '../assets/logo.svg'
@@ -116,6 +116,7 @@ const [toggle, setNav]= useState(false)
     <img src={icon} alt="" />
     </motion.button>
     
+    <Outlet/>
     </> );
 }
 
